@@ -1,0 +1,51 @@
+
+
+body{
+    text-align: center;
+    margin-top: 35px;
+    background-image: url("/static/img/main_img/bg.jpg");
+    background-size: cover;
+    font-family: "Jersey 15", sans-serif; 
+    font-weight: 400; 
+    font-style: normal;
+}
+
+.header{
+    background-color: rgb(8, 4, 87);
+    border: 5px solid black;
+    border-radius: 5px;
+    height: 100px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+h1{
+    color: rgb(29, 246, 29);
+}
+
+.contents{
+    height: 100px;
+    width: 1250px;
+    border: solid 5px black;
+    margin: auto;
+    margin-bottom: 50px;
+    background-color: rgb(34, 34, 121);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+a{
+    font-size: 30px;
+    text-decoration: none;
+    color: rgb(30, 248, 30);
+}
+
+a:hover{
+    text-decoration: underline;
+    color: rgb(242, 213, 24);
+}
